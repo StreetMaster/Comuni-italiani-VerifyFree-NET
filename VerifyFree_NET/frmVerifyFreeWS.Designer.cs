@@ -37,6 +37,8 @@
             this.txtInComune = new System.Windows.Forms.TextBox();
             this.lblInComune = new System.Windows.Forms.Label();
             this.gbOutput = new System.Windows.Forms.GroupBox();
+            this.lblScoreComune = new System.Windows.Forms.Label();
+            this.txtOutScoreComune = new System.Windows.Forms.TextBox();
             this.btnMoveNext = new System.Windows.Forms.Button();
             this.btnMovePrev = new System.Windows.Forms.Button();
             this.lblCandNum = new System.Windows.Forms.Label();
@@ -148,6 +150,8 @@
             // 
             // gbOutput
             // 
+            this.gbOutput.Controls.Add(this.lblScoreComune);
+            this.gbOutput.Controls.Add(this.txtOutScoreComune);
             this.gbOutput.Controls.Add(this.btnMoveNext);
             this.gbOutput.Controls.Add(this.btnMovePrev);
             this.gbOutput.Controls.Add(this.lblCandNum);
@@ -167,6 +171,25 @@
             this.gbOutput.TabIndex = 2;
             this.gbOutput.TabStop = false;
             this.gbOutput.Text = "Output";
+            // 
+            // lblScoreComune
+            // 
+            this.lblScoreComune.AutoSize = true;
+            this.lblScoreComune.Location = new System.Drawing.Point(674, 72);
+            this.lblScoreComune.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblScoreComune.Name = "lblScoreComune";
+            this.lblScoreComune.Size = new System.Drawing.Size(107, 14);
+            this.lblScoreComune.TabIndex = 34;
+            this.lblScoreComune.Text = "Score Comune:";
+            // 
+            // txtOutScoreComune
+            // 
+            this.txtOutScoreComune.Location = new System.Drawing.Point(789, 69);
+            this.txtOutScoreComune.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtOutScoreComune.Name = "txtOutScoreComune";
+            this.txtOutScoreComune.ReadOnly = true;
+            this.txtOutScoreComune.Size = new System.Drawing.Size(49, 22);
+            this.txtOutScoreComune.TabIndex = 35;
             // 
             // btnMoveNext
             // 
@@ -233,7 +256,7 @@
             // 
             // txtOutProvincia
             // 
-            this.txtOutProvincia.Location = new System.Drawing.Point(556, 21);
+            this.txtOutProvincia.Location = new System.Drawing.Point(538, 21);
             this.txtOutProvincia.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtOutProvincia.Name = "txtOutProvincia";
             this.txtOutProvincia.ReadOnly = true;
@@ -243,7 +266,7 @@
             // lblOutProvincia
             // 
             this.lblOutProvincia.AutoSize = true;
-            this.lblOutProvincia.Location = new System.Drawing.Point(474, 24);
+            this.lblOutProvincia.Location = new System.Drawing.Point(456, 24);
             this.lblOutProvincia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOutProvincia.Name = "lblOutProvincia";
             this.lblOutProvincia.Size = new System.Drawing.Size(74, 14);
@@ -252,7 +275,7 @@
             // 
             // txtOutCap
             // 
-            this.txtOutCap.Location = new System.Drawing.Point(671, 24);
+            this.txtOutCap.Location = new System.Drawing.Point(659, 21);
             this.txtOutCap.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtOutCap.Name = "txtOutCap";
             this.txtOutCap.ReadOnly = true;
@@ -262,7 +285,7 @@
             // lblOutCap
             // 
             this.lblOutCap.AutoSize = true;
-            this.lblOutCap.Location = new System.Drawing.Point(630, 24);
+            this.lblOutCap.Location = new System.Drawing.Point(612, 24);
             this.lblOutCap.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOutCap.Name = "lblOutCap";
             this.lblOutCap.Size = new System.Drawing.Size(39, 14);
@@ -363,7 +386,7 @@
             this.txtKey.Name = "txtKey";
             this.txtKey.Size = new System.Drawing.Size(348, 21);
             this.txtKey.TabIndex = 4;
-            this.txtKey.Text = "Specificare una chiave per il servizio Verify";
+            this.txtKey.Text = "Specificare una chiave per il servizio VERIFY Free";
             // 
             // frmVerifyFreeWS
             // 
@@ -422,6 +445,8 @@
         private System.Windows.Forms.Label lblOutCap;
         private System.Windows.Forms.TextBox txtOutComune;
         private System.Windows.Forms.Label lblOutComune;
+        private System.Windows.Forms.TextBox txtOutScoreComune;
+        private System.Windows.Forms.Label lblScoreComune;
     }
 }
 
