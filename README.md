@@ -1,4 +1,4 @@
-# Comuni italiani, webservice gratuito di verifica e correzione. Servizio free
+# Comuni italiani. Webservice gratuito di verifica e correzione. Servizio free
 ## Demo VerifyFree .NET
 Comuni italiani. Demo .NET per l'utilizzo del ws VERIFY FREE di verifica e correzione. Il servizio è gratuito.
 
