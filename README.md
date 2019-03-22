@@ -5,7 +5,7 @@ Comuni italiani. Soluzione .NET per l'utilizzo del ws VERIFY FREE di verifica e 
 ### Ambiente di sviluppo:
   - C#
   - Framework 4.6.1
-  - Visual Studio Professional 2015 SP2
+  - Visual Studio Professional 2017
 
 ### Endpoint
 ```
