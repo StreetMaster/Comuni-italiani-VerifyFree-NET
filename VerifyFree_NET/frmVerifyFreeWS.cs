@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace VerifyFree_NET
@@ -16,7 +9,7 @@ namespace VerifyFree_NET
     /// realizzato da StreetMaster Italia
     /// 
     /// L'end point del servizio è 
-    ///     http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/smws/verify_free?wsdl
+    ///     https://streetmaster.streetmaster.it/smws/verify_free?wsdl
     ///     
     /// Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiave per il servizio Verify Free solo localita' 
     /// 
@@ -50,12 +43,13 @@ namespace VerifyFree_NET
             var verifyFreeObj = new VerifyFreeWS.VerifyFreeClient();
 
             // classe di input
-            var inVerifyFree = new VerifyFreeWS.inputVerifyFree();
-
-            // valorizzazione input
-            inVerifyFree.localita = txtInComune.Text;
-            inVerifyFree.cap = txtInCap.Text;
-            inVerifyFree.provincia = txtInProvincia.Text;
+            var inVerifyFree = new VerifyFreeWS.inputVerifyFree
+            {
+                // valorizzazione input
+                localita = txtInComune.Text,
+                cap = txtInCap.Text,
+                provincia = txtInProvincia.Text
+            };
 
             // chiamata al servizio
             totOutVerifyFreeWS = verifyFreeObj.VerifyFree(inVerifyFree, txtKey.Text);

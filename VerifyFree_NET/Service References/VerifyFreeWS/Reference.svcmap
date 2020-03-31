@@ -19,11 +19,11 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/smws/verify_free?wsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="https://streetmaster.streetmaster.it/smws/verify_free?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="verify_free.xsd" MetadataType="Schema" ID="2769f411-048b-490d-b848-94c486b491f5" SourceId="1" SourceUrl="http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/smws/verify_free?xsd=1" />
-    <MetadataFile FileName="verify_free.wsdl" MetadataType="Wsdl" ID="26b42908-34a2-4537-93b7-102570ef34c2" SourceId="1" SourceUrl="http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/smws/verify_free?wsdl" />
+    <MetadataFile FileName="verify_free1.wsdl" MetadataType="Wsdl" ID="93583986-f88a-4644-8320-b6d559384716" SourceId="1" SourceUrl="https://streetmaster.streetmaster.it/smws/verify_free?wsdl" />
+    <MetadataFile FileName="verify_free1.xsd" MetadataType="Schema" ID="e9f74823-f012-41e0-82cb-66bf7d0fb1c4" SourceId="1" SourceUrl="https://streetmaster.streetmaster.it/smws/verify_free?xsd=1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

@@ -103,8 +103,8 @@
     <None Include="Service References\VerifyFreeWS\VerifyFree_NET.VerifyFreeWS.VerifyFreeResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\VerifyFreeWS\verify_free.wsdl" />
-    <None Include="Service References\VerifyFreeWS\verify_free.xsd">
+    <None Include="Service References\VerifyFreeWS\verify_free1.wsdl" />
+    <None Include="Service References\VerifyFreeWS\verify_free1.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
